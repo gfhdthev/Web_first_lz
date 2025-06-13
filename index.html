@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link type="image/x-icon" href="assets/Zero_design_logo.svg" rel="shortcut icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
+
+<!-- 188 137 102 -->
+
+
 <body>
     <header>
         <div class="header-container container">
             <div class="header-left-side">
-                <img src="assets/Zero_design_logo.svg" alt="pass" width="137" height="74" alt="Zero_design_logo">
+                <img src="assets/Zero_design_logo.svg" width="137" height="74" alt="Zero_design_logo">
                 <div class="header-links">
-                    <a href="#">Landing</a>
-                    <a href="#">Company</a>
-                    <a href="#">CMS Pages</a>
-                    <a href="#">Utility</a>
+                    <a href="#Landing">Landing</a>
+                    <a href="#Company">Company</a>
+                    <a href="#CMS_Pages">CMS Pages</a>
+                    <a href="#Utility">Utility</a>
                 </div>
             </div>
             <div class="header-right-side">
@@ -27,7 +33,6 @@
                 <img src="assets/Market_cart.svg" alt="pass" width="44" height="46">
             </div>
         </div>
-
     </header>
     <main>
         <section class="ui-kit container">
@@ -76,9 +81,10 @@
                 </div>
             </div>
         </section>
-        <section class="landing-pages">
+        <section class="landing-pages" id="Landing">
             <div class="landing-pages-sign">
-                <img src="/assets/landing_pages_sign.svg" alt="pass" width="431" height="65">
+                <!-- <img src="/assets/landing_pages_sign.svg" alt="pass" width="431" height="65"> -->
+                <h2>LANDING PAGES</h2>
             </div>
             <div class="landing-pages-sections">
                 <div class="section-1" id="Landing_1">
@@ -99,7 +105,7 @@
                 </div>
             </div>
         </section>
-        <section class="company">
+        <section class="company" id="Company">
             <div class="company-sign">
                 <img src="/assets/Company_title.svg" alt="pass" width="288" height="65">
             </div>
@@ -132,10 +138,9 @@
                     <img src="/assets/faq_picture.svg" alt="pass" width="345" height="215">
                     <p>FAQ</p>
                 </div>
-                </div>
             </div>
         </section>
-        <section class="cms-pages">
+        <section class="cms-pages" id="CMS_Pages">
             <div class="cms-pages-sign">
                 <img src="/assets/cms_pages_title.svg" alt="pass" width="320" height="65">
             </div>
@@ -168,7 +173,7 @@
                     <img src="/assets/careers_image.svg" alt="pass" width="576" height="360">
                     <p>CAREERS</p>
                 </div>
-                <div class="cms-8" id="Single Product Page">
+                <div class="cms-8" id="Single_Product_Page">
                     <img src="/assets/single_product_page_image.svg" alt="pass" width="576" height="360">
                     <p>SINGLE PRODUCT PAGE</p>
                 </div>
@@ -184,10 +189,9 @@
                     <img src="/assets/single_work_page_image.svg" alt="pass" width="576" height="360">
                     <p>SINGLE WORK PAGE</p>
                 </div>
-                </div>
             </div>
         </section>
-        <section class="utility">
+        <section class="utility" id="Utility">
             <div class="utility-sign">
                 <img src="/assets/utility_image.svg" alt="pass" width="229" height="65">
             </div>
@@ -215,8 +219,8 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="main-part container">
+    <footer class="container">
+        <div class="main-part">
             <div class="footer-left-part">
                 <h3>Subscribe our newsletter</h3>
                 <div class="strange-input">
@@ -224,9 +228,9 @@
                     <button></button>
                 </div>
                 <div class="footer-links">
-                    <a href="https://www.behance.net/" target="_blank"><img src="assets/BE_link.svg" width="90" height="90"></a>
-                    <a href="https://dribbble.com/" target="_blank"><img src="assets/Ball_link.svg" width="90" height="90" class="second-image"></a>
-                    <a href="https://vimeo.com/" target="_blank"><img src="assets/V_link.svg" width="90" height="90"></a>
+                    <a href="https://www.behance.net/" target="_blank"><img src="assets/BE_link.svg" alt="pass" width="90" height="90"></a>
+                    <a href="https://dribbble.com/" target="_blank"><img src="assets/Ball_link.svg" alt="pass" width="90" height="90" class="second-image"></a>
+                    <a href="https://vimeo.com/" target="_blank"><img src="assets/V_link.svg" alt="pass" width="90" height="90"></a>
                 </div>
             </div>
             <div class="footer-right-part">
@@ -275,7 +279,10 @@
                 </nav>
             </div>
         </div>
-        <img src="assets/Powered_and_created.svg" alt="pass" width="1299.97" height="10" class="footer-image">
+        <div class="last_p">
+            <p>POWERED BY <span class="last_p_yellow">WEBFLOW</span></p>
+            <p>CREATED BY <span class="last_p_yellow">UDESLY</span></p>
+        </div>
     </footer>
 </body>
 </html>
