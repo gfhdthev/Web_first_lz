@@ -165,6 +165,16 @@ h1{
 .company-sign{
     margin-bottom: 60px;
     margin-top: 200px;
+    background-color: #000000;
+    padding: 6px 100px 14px 30px;
+    width: 288px;
+}
+.company-sign h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    font-family: "Jost", sans-serif;
 }
 .company-pages-sections{
     display: flex;
@@ -210,6 +220,16 @@ h1{
 }
 .cms-pages-sign{
     margin-bottom: 60px;
+    background-color: #000000;
+    padding: 6px 100px 14px 30px;
+    width: 288px;
+}
+.cms-pages-sign h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    font-family: "Jost", sans-serif;
 }
 .cms-pages-sections{
     display: flex;
@@ -269,6 +289,16 @@ h1{
 }
 .utility-sign{
     margin-bottom: 60px;
+    background-color: #000000;
+    padding: 6px 100px 14px 30px;
+    width: 288px;
+}
+.utility-sign h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    font-family: "Jost", sans-serif;
 }
 .utility-sections{
     display: flex;
